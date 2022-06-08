@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 
+
 Vue.use(VueRouter)
 
 const routes = [
@@ -11,15 +12,36 @@ const routes = [
     component: HomeView
   },
   {
-    path: '/about',
-    name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
+    path: '/referencias',
+    name: 'referenciass',
     component: function () {
-      return import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
+      return import(/* webpackChunkName: "about" */ '../views/ReferenciasView.vue')
     }
-  }
+  },
+  {
+    path: '/referencias/agregar',
+    name: 'agregar',
+    component: function () {
+      return import(/* webpackChunkName: "about" */ '../views/AgregarView.vue')
+    }
+  },
+  {
+    path: '/referencias/agregarIso',
+    name: 'agregarIso',
+    component: function () {
+      return import(/* webpackChunkName: "about" */ '../views/AgregarIso.vue')
+    }
+  },
+  {
+    path: '/referencias/agregarVancouver',
+    name: 'agregarVancouver',
+    component: function () {
+      return import(/* webpackChunkName: "about" */ '../views/AgregarVancouver.vue')
+    }
+  },
+  
+ 
+  
 ]
 
 const router = new VueRouter({
