@@ -1,5 +1,6 @@
 <template>
-  <v-container>
+
+  <v-container id="c_evaluación">
         <h1></h1>
         <br>
          <v-row
@@ -26,6 +27,7 @@
       rounded
       color="verde"
     >
+  
       Evaluación
     </v-btn>
 
@@ -62,13 +64,16 @@
             virtual de aprendizaje
         </label>
         <br>
+          <router-link to="/evaluacion/tipodeevaluacion">
         <v-btn 
-        style="margin-left:60px"
+        style="margin-left:60px; margin-top: 10px;"
             rounded
             color="verde"
         >
+    
             Crear
         </v-btn>
+        </router-link>
       
                 <v-img class="imagen1"
                     style="margin-left: 650px; margin-top:-240px"
@@ -87,7 +92,7 @@
                  max-height="250"
              />
 
-    
+    <router-view></router-view>
     </v-container>
 
 </template>
@@ -101,5 +106,14 @@
     components: {
       Evaluacion,
     },
+    methods: {
+
+        cambio(){
+            this 
+        },
+
+    }
+   
+
   }
 </script>

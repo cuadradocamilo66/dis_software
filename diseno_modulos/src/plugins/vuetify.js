@@ -20,7 +20,8 @@ export default new Vuetify({
         warning: '#FFC107',
         verde: '#96D337',
         blanco: '#FBFBFB',
-        color_letra: '#4D4D4D'
+        color_letra: '#4D4D4D',
+        fondo: '#7BE495'
       },
     },
   },

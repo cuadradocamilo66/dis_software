@@ -1,6 +1,6 @@
 <template>
   <v-container
-        color: verde
+        color fondo
         >
   <div style="margin-top:0px">
       <h2  style= "font-size:40px;
@@ -21,6 +21,7 @@
                  style="width:500px "
                      solo
                     label="Digite la pregunta..."
+                    v-model="pregunta.p"
                 ></v-textarea>
             </div>
 
@@ -32,6 +33,7 @@
                 style= "width:500px"
                 label="Respuesta A"
                  placeholder="Escriba"
+                 v-model="ra"
                  solo
                 rounded
                 dense >
@@ -57,6 +59,7 @@
                 style= "width:500px"
                 label="Respuesta B"
                  placeholder="Escriba"
+                  v-model="rb"
                  solo
                 rounded
                 dense >
@@ -80,6 +83,7 @@
                 style= "width:500px"
                 label="Respuesta C"
                  placeholder="Escriba"
+                  v-model="rc"
                  solo
                 rounded
                 dense >
@@ -103,6 +107,7 @@
                 style= "width:500px"
                 label="Respuesta D"
                  placeholder="Escriba"
+                  v-model="rd"
                  solo
                 rounded
                 dense >
@@ -118,6 +123,7 @@
           outlined
         ></v-select>
     </div>
+     <p>{{ questions || 'null' }}</p>
     </div>
     <br>
     <div style="display:flex">
@@ -132,7 +138,8 @@
          <div  style= "margin-left:300px; margin-top: 0px; ">
             <v-btn
               rounded 
-              color="primary">
+              color="primary"
+               v-on:click="guardar">
               Finalizar
             </v-btn>
         </div>
@@ -157,6 +164,38 @@
 
   export default {
     name: 'OpcionMultiple',
+
+
+       data () {
+         return {
+             pregunta:{p:"null"},
+             items: ['Correcto', 'Incorrecto'],
+             questionss: [],
+             questions: [
+                 this.items, this.pregunta
+            ],
+      }
+    },
+
+
+     methods: {
+    guardar: function (event) {
+
+ 
+       alert(this.questions.length)
+      
+    },
+      cargar: function() {
+            this.questions.push( this.questionss);
+        }
+
+
+
+  },
+
+
+
+
 
     components: {
       OpcionMultiple,

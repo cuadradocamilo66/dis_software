@@ -1,5 +1,5 @@
 <template >
-  <v-container
+  <v-container id="c_tipo_evaluacion"
         color: verde
         fill-height>
 
@@ -28,23 +28,27 @@
           <v-radio 
          
             label="Opción múltiple con única respuesta"
-            value="radio-1"
+            value="radio1"
+           
            
           >   
          </v-radio>
           <v-radio
             label="Falso y verdadero"
-             value="radio-2"
+             value="radio2"
+             
           >
           </v-radio>
            <v-radio
             label="Completar el enunciado"
-             value="radio-3"
+             value="radio3"
+            
           >
           </v-radio>
            <v-radio
             label="Unir con una línea"
-             value="radio-4"
+             value="radio4"
+            
           >
           </v-radio>
     </v-radio-group>
@@ -68,7 +72,8 @@
 
     <v-btn rounded
     color="blanco"
-    style="margin-top:350px; margin-left:-230px">
+    style="margin-top:350px; margin-left:-230px" 
+    v-on:click="saludar">
       Crear
     </v-btn>
     <div>
@@ -80,6 +85,8 @@
                  
                 </v-img>
     </div>
+
+
   </v-container>
 
 
@@ -91,6 +98,47 @@
 
   export default {
     name: 'TipoDeEvaluacionn',
+
+      data () {
+      return {
+        radios: null,
+      
+      }
+    },
+
+     methods: {
+    saludar: function (event) {
+      
+  
+      //alert('Hola ' + radio1 +  'usted seleccionó el radio' + this.radios)
+      // `evento` es el evento DOM nativo
+     
+        if(this.radios == "radio1"){
+            alert('pantalla de evaluación múltiple:');
+              
+               this.$router.push('/evaluacion/tipodeevaluacion/opcionmultiple')
+        }
+         if(this.radios == "radio2"){
+            alert('pantalla de falsoyverdadero:');
+              
+               this.$router.push('/evaluacion/tipodeevaluacion/falsoyverdadero')
+        }
+         if(this.radios == "radio3"){
+            alert('pantalla de completarenunciado:');
+              
+               this.$router.push('/evaluacion/tipodeevaluacion/completarenunciado')
+        }
+         if(this.radios == "radio4"){
+            alert('pantalla de unirconlineas:');
+              
+               this.$router.push('/evaluacion/tipodeevaluacion/unirconlineas')
+        }
+    }
+  },
+
+
+
+
 
     components: {
       TipoDeEvaluacion,
