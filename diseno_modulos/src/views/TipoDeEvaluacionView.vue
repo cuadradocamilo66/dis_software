@@ -1,6 +1,6 @@
 <template >
   <v-container id="c_tipo_evaluacion"
-        color: verde
+        color verde
         fill-height>
 
         <h2  style= "font-size:50px; margin-top:-500px;
