@@ -169,6 +169,7 @@
 <table border="1">
             <thead>
                 <th>PREGUNTAS</th>
+                
                    
                
             </thead>
