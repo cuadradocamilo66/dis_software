@@ -1,6 +1,6 @@
 <template>
   <v-container
-        color: verde
+        color verde
         >
   <div style="margin-top:0px">
       <h2  style= "font-size:40px;
