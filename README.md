@@ -1,3 +1,9 @@
 # dis_software
 
+INTEGRANTES: CAMILO CUADRADO ESCOBAR
+ANGÉLICA MÉNDEZ THERAN
+EDUARDO ALEAN VILORIA
+JESÚS RAMOS DÍAZ
+JOEL SALCEDO OJEDA
+
 creación de paquetería de vue con los plugins 
