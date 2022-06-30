@@ -1,10 +1,10 @@
 import Vue from 'vue'
 import App from './App.vue'
-import router from './router/modulo_referencias'
+import router from './router/index'
 import store from './store'
 import vuetify from './plugins/vuetify'
-// import axios from 'axios'
-// import VueAxios from 'vue-axios'
+import axios from 'axios'
+import VueAxios from 'vue-axios'
 import VueSweetalert2 from 'vue-sweetalert2';
 
 // If you don't need the styles, do not connect
