@@ -78,7 +78,7 @@
 
 
 <script>
-  import UnirConLineas from '../components/modulo_evaluacion/UnirConLineas'
+  import UnirConLineas from '../../components/modulo_evaluacion/UnirConLineas'
 
   export default {
     name: 'UnirConLineas',

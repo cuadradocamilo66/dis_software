@@ -77,15 +77,16 @@
       
                 <v-img class="imagen1"
                     style="margin-left: 650px; margin-top:-240px"
-                   :src="require('../assets/learning.svg')"
+                   src="require('../assets/learning.svg')"
                    max-height="500"
                    max-width="500">
                  
                 </v-img>
                    
             <v-img
+            src="require('./assets/wave.svg')"
                  style=" margin-top:-150px"
-                :src="require('../assets/wave.svg')"
+                
             
             
                  max-width="1250"
@@ -98,7 +99,7 @@
 </template>
 
 <script>
-  import Evaluacion from '../components/modulo_evaluacion/Evaluacion'
+  import Evaluacion from '../../components/modulo_evaluacion/Evaluacion'
 
   export default {
     name: 'Evaluacionn',

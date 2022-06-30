@@ -79,7 +79,7 @@
     <div>
       <v-img 
                     style="margin-left: 380px; margin-top:40px"
-                   :src="require('../assets/teacher.svg')"
+                   src="require('../assets/teacher.svg')"
                    max-height="500"
                    max-width="500">
                  
@@ -94,7 +94,7 @@
 </template>
 
 <script>
-  import TipoDeEvaluacion from '../components/modulo_evaluacion/TipoDeEvaluacion'
+  import TipoDeEvaluacion from '../../components/modulo_evaluacion/TipoDeEvaluacion'
 
   export default {
     name: 'TipoDeEvaluacionn',
