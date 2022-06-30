@@ -218,14 +218,10 @@
 
 <script>
   import OpcionMultiple from '../components/OpcionMultiple'
-
   export default {
     name: 'OpcionMultiple',
-
-
    data: () => ({
       items: ['incorrecto', 'correcto'],
-
    
         questions:[],
         pregunta:null,
@@ -236,12 +232,8 @@
       
          celdas: true             
     }),
-
-
-
      methods: {
     guardar: function (event) {
-
  
        alert(this.questions.length)
       
@@ -260,21 +252,11 @@
         this.rb= "",
         this.rc= "",
         this.rd= ""
-
-
         }, 
         	mostrar_lista(){
      this.celdas = !this.celdas;
 	},
-
-
-
   },
-
-
-
-
-
     components: {
       OpcionMultiple,
     },

@@ -1,23 +1,14 @@
 <template>
-
-
-
   
 </template>
 
-
-
 <script>
   export default {
-    name: 'OpcionMultiple',
+    name: 'CompletarEnunciado',
 
     data: () => ({
       
     }),
   }
-
-
-
-
-
 </script>
+

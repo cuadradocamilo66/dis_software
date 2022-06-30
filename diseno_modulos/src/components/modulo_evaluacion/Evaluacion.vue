@@ -1,23 +1,14 @@
 <template>
-
-
-
   
 </template>
 
-
-
 <script>
   export default {
-    name: 'OpcionMultiple',
+    name: 'Evaluacion',
 
     data: () => ({
       
     }),
   }
-
-
-
-
-
 </script>
+
