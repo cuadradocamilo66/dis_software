@@ -71,7 +71,7 @@
 
         <router-link :to="{name:'agregar' }">
              <v-img 
-                :src="require('../assets/AGREGAR.png')"
+                :src="require('../../assets/AGREGAR.png')"
                 max-width="180"
                 max-height="180"
                 class="n4"/>
@@ -80,7 +80,7 @@
       </v-row>
                 <v-img class="imagen1"
                     style="margin-left: 650px; margin-top:-320px"
-                   :src="require('../assets/principal.png')"
+                   :src="require('../../assets/principal.png')"
                    max-height="800"
                    max-width="800">
                 </v-img>
@@ -88,7 +88,7 @@
             <v-img
                  style=" margin-top:-150px
                 "
-                :src="require('../assets/wave.svg')"
+                :src="require('../../assets/wave.svg')"
             
             
                  max-width="1250"
@@ -108,7 +108,7 @@
 
 
 <script>
-  import Referencias from '../components/Referencias'
+  import Referencias from '../../components/Referencias'
   export default {
     name: 'referenciass',
     components: {

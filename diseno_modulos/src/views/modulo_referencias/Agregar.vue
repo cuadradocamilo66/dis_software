@@ -15,7 +15,7 @@
 <br><br><br>
        <v-row>
               <router-link :to="{name:'estiloLibroApa' }">
-              <v-img :src="require('../assets/logo_apa.png')"
+              <v-img :src="require('../../assets/logo_apa.png')"
                       max-width="150"
                       max-height="150"
                       style="margin-left: 200px;"
@@ -23,7 +23,7 @@
               </router-link>
           
              <router-link :to="{name: 'estiloLibroIso'}">
-             <v-img :src="require('../assets/logo_iso.png')" 
+             <v-img :src="require('../../assets/logo_iso.png')" 
                      max-width="150"
                      max-height="150"
                    style="  margin-left: 550px;
