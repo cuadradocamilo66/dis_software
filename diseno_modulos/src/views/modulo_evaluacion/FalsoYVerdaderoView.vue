@@ -94,7 +94,7 @@
 </template>
 
 <script>
-  import FalsoYVerdadero from '../components/FalsoYVerdadero'
+  import FalsoYVerdadero from '../components/modulo_evaluacion/FalsoYVerdadero'
 
   export default {
     name: 'FalsoYVerdadero',

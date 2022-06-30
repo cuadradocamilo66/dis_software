@@ -98,7 +98,7 @@
 </template>
 
 <script>
-  import Evaluacion from '../components/modulo_evaluacion/Evaluacion'
+  import Evaluacion from '../components/Evaluacion'
 
   export default {
     name: 'Evaluacionn',

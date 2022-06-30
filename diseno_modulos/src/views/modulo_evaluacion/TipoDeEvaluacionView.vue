@@ -94,7 +94,7 @@
 </template>
 
 <script>
-  import TipoDeEvaluacion from '../components/TipoDeEvaluacion'
+  import TipoDeEvaluacion from '../components/modulo_evaluacion/TipoDeEvaluacion'
 
   export default {
     name: 'TipoDeEvaluacionn',

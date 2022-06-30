@@ -11,42 +11,42 @@ const routes = [
     path: '/evaluacion',
     name: 'evaluacionn',
     component: function () {
-      return import(/* webpackChunkName: "about" */ '../views/EvaluacionView.vue')
+      return import(/* webpackChunkName: "about" */ '../views/modulo_evaluacion/EvaluacionView.vue')
     }
   },
   {
     path: '/evaluacion/tipodeevaluacion',
     name: 'tipodeevaluacion',
     component: function () {
-      return import(/* webpackChunkName: "about" */ '../views/TipoDeEvaluacionView.vue')
+      return import(/* webpackChunkName: "about" */ '../views/modulo_evaluacion/TipoDeEvaluacionView.vue')
     }
   },
   {
     path: '/evaluacion/tipodeevaluacion/opcionmultiple',
     name: 'opcionmultiple',
     component: function () {
-      return import(/* webpackChunkName: "about" */ '../views/OpcionMultipleView.vue')
+      return import(/* webpackChunkName: "about" */ '../views/modulo_evaluacion/OpcionMultipleView.vue')
     }
   },
   {
     path: '/evaluacion/tipodeevaluacion/falsoyverdadero',
     name: 'falsoyverdadero',
     component: function () {
-      return import(/* webpackChunkName: "about" */ '../views/FalsoYVerdaderoView.vue')
+      return import(/* webpackChunkName: "about" */ '../views/modulo_evaluacion/FalsoYVerdaderoView.vue')
     }
   },
   {
     path: '/evaluacion/tipodeevaluacion/completarenunciado',
     name: 'completarenunciado',
     component: function () {
-      return import(/* webpackChunkName: "about" */ '../views/CompletarEnunciadoView.vue')
+      return import(/* webpackChunkName: "about" */ '../views/modulo_evaluacion/CompletarEnunciadoView.vue')
     }
   },
   {
     path: '/evaluacion/tipodeevaluacion/unirconlineas',
     name: 'unirconlineas',
     component: function () {
-      return import(/* webpackChunkName: "about" */ '../views/UnirConLineasView.vue')
+      return import(/* webpackChunkName: "about" */ '../views/modulo_evaluacion/UnirConLineasView.vue')
     }
   },
 

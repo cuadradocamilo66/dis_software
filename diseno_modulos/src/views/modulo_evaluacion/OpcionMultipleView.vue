@@ -217,7 +217,7 @@
 </template>
 
 <script>
-  import OpcionMultiple from '../components/OpcionMultiple'
+  import OpcionMultiple from '../components/modulo_evaluacion/OpcionMultiple'
   export default {
     name: 'OpcionMultiple',
    data: () => ({

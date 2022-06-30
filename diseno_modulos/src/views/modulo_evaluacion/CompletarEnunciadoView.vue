@@ -63,7 +63,7 @@
 </template>
 
 <script>
-  import CompletarEnunciado from '../components/CompletarEnunciado'
+  import CompletarEnunciado from '../components/modulo_evaluacion/CompletarEnunciado'
 
   export default {
     name: 'CompletarEnunciado',
