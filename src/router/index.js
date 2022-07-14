@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import rutasevaluacion from './modulo_evaluacion'
+
 
 Vue.use(VueRouter)
 
@@ -10,6 +12,9 @@ const routes = [
     name: 'home',
     component: HomeView
   },
+
+
+
   {
     path: '/about',
     name: 'about',
@@ -25,7 +30,7 @@ const routes = [
 const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
-  routes
+  routes: [...routes, ...rutasevaluacion]
 })
 
 export default router
