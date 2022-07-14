@@ -1,4 +1,12 @@
 # diseno_modulos
+# module_ref
+
+INTEGRANTES: 
+JOSE MANUEL PEREZ
+ANYI PEÑA
+ONIRIS MERCADO
+YERALDINE PASTRANA
+ANGIE POLO
 
 ## Project setup
 ```
