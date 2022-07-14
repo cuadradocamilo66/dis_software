@@ -1,9 +1,19 @@
-# dis_software
+# diseno_modulos
 
-INTEGRANTES: CAMILO CUADRADO ESCOBAR
-ANGÉLICA MÉNDEZ THERAN
-EDUARDO ALEAN VILORIA
-JESÚS RAMOS DÍAZ
-JOEL SALCEDO OJEDA
+## Project setup
+```
+npm install
+```
 
-creación de paquetería de vue con los plugins 
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
